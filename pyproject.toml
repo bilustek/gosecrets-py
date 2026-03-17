@@ -1,0 +1,48 @@
+[project]
+name = "gosecrets"
+version = "0.0.0"
+authors = [
+    { name="Ugur Ozyilmazel", email="ugurozyilmazel@gmail.com" },
+]
+description = "Python client for gosecrets — encrypted credentials management"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["gosecrets", "credentials", "encryption", "secrets"]
+dependencies = [
+    "cryptography>=42.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+build = ["build", "twine"]
+dev = ["pytest", "pytest-cov", "ruff"]
+
+[project.urls]
+Homepage = "https://github.com/bilustek/gosecrets-py"
+Repository = "https://github.com/bilustek/gosecrets-py"
+Issues = "https://github.com/bilustek/gosecrets-py/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
