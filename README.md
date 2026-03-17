@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/version-0.0.0-orange.svg)
+![Version](https://img.shields.io/badge/version-0.1.0-orange.svg)
 [![PyPI version](https://img.shields.io/pypi/v/gosecrets.svg)](https://pypi.org/project/gosecrets/)
 [![Python versions](https://img.shields.io/pypi/pyversions/gosecrets.svg)](https://pypi.org/project/gosecrets/)
 [![License](https://img.shields.io/pypi/l/gosecrets.svg)](https://github.com/bilustek/gosecrets-py/blob/main/LICENSE)

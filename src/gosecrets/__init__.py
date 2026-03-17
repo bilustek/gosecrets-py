@@ -3,4 +3,4 @@
 from gosecrets.secrets import Secrets, load
 
 __all__ = ['Secrets', 'load']
-__version__ = '0.0.0'
+__version__ = '0.1.0'
