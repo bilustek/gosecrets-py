@@ -1,8 +1,12 @@
-# gosecrets
-
+![Version](https://img.shields.io/badge/version-0.1.0-orange.svg)
 [![PyPI version](https://img.shields.io/pypi/v/gosecrets.svg)](https://pypi.org/project/gosecrets/)
 [![Python versions](https://img.shields.io/pypi/pyversions/gosecrets.svg)](https://pypi.org/project/gosecrets/)
 [![License](https://img.shields.io/pypi/l/gosecrets.svg)](https://github.com/bilustek/gosecrets-py/blob/main/LICENSE)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Run ruff linter and tests](https://github.com/bilustek/gosecrets-py/actions/workflows/test-and-lint.yml/badge.svg)](https://github.com/bilustek/gosecrets-py/actions/workflows/test-and-lint.yml)
+[![codecov](https://codecov.io/gh/bilustek/gosecrets-py/graph/badge.svg?token=TE3QXLZMBC)](https://codecov.io/gh/bilustek/gosecrets-py)
+
+# gosecrets
 
 Python client for [gosecrets](https://github.com/bilustek/gosecrets) — encrypted
 credentials management. Read secrets encrypted by the Go CLI directly from your
