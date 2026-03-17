@@ -1,6 +1,6 @@
 [project]
 name = "gosecrets"
-version = "0.1.0"
+version = "0.0.0"
 authors = [
     { name="Ugur Ozyilmazel", email="ugurozyilmazel@gmail.com" },
 ]
